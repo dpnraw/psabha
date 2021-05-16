@@ -1,0 +1,93 @@
+.midsection_box{
+  margin-top: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.content_title {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-sm{
+	font-size: 12px;
+    line-height: 1.5;
+    padding: 1px 5px;
+}
+.other-download ul li a{
+	color:black;
+	font-size: 14px;
+}
+.related-links li{
+	padding: 5px;
+	font-size: 14px;
+
+}
+
+
+/*social media icons*/
+.social-media-icons ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-media-icons a { 
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.social-media-icons a:nth-child(1) i {
+    color: #3B5998;
+}
+
+.social-media-icons a:nth-child(2) i {
+    color: #4099FF;
+}
+
+.social-media-icons a:nth-child(3) i {
+    color: #b31217;
+}
+
+
+.social-media-icons a i:hover{
+    color: black;
+}
+.publications hr{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.publications .card-body{
+    padding: 5px;
+}
+
+.publications p{
+    margin-bottom: 2px;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+  z-index: 0
+
+}
+
+.zoom img{
+  border : 1px solid;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  overflow: visible;
+}
+
+@media only screen and (max-width: 600px) {
+  .item .card {
+    max-width: 100%;
+  }
+}
+
